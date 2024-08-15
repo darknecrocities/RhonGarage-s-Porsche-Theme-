@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RhonGarage's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing Page with Scroll-Driven Animations</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <nav class="Navbar">
+            <div class="container">
+                <div class="Logo">RhonGarage's.</div>
+
+                <div id="menu" class="menu">
+                    <header class="inline">
+                        <div class="Logo">RhonGarage's.</div>
+                        <button id="closeMenuBtn" title="Close Menu" aria-label="Close Menu" class="NavButton">
+                            <i class="ri-close-line"></i>
+                        </button>
+                    </header>
+
+                    <a href="#" class="NavLink">Home</a>
+                    <a href="#car" class="NavLink">Car</a>
+                    <a href="#plans" class="NavLink">Plans</a>
+                    <a href="#about" class="NavLink">About</a>
+                </div>
+
+                <button id="openMenuBtn" title="Open Menu" aria-label="Open Menu" class="NavButton">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </nav>
+        <main>
+            <section id="home">
+                <div class="hero">
+                    <div class="visual">
+                        <picture>
+                            <source srcset="porsche.avif" type="image/avif" media="(min-width: 1024px)" />
+                            <img src="porsche.avif" alt="fitness" />
+                        </picture>
+                    </div>
+                    
+
+                    <div class="content">
+                        <h1>Good Morning Torque Master</h1>
+                        <div class="wrapper">
+                            <a href="#discover" class="LinkButton Primary"> DISCOVER MORE </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="discover" class="fold">
+                    <div class="subject">
+                        <p>
+                            Today is the perfect day to drive your dreams to new heights,
+                            <span style="color: var(--brand-1)">Ignite the engine of your ambition, feel the power of your resolve, and accelerate towards 
+                                your goals with the precision and passion of a Porsche.
+                                </span>
+                                Embrace the road ahead with confidence, and let every mile bring you closer to your ultimate success.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="car" class="schedule">
+                <div class="subject">
+                    <div class="container">
+                        <div class="table-wrapper">
+                            <h2>2000's-2013</h2>
+                            <table>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Car Model</th>
+                                    <th>Price</th>
+                                </tr>
+                                <tr>
+                                    <td>2001</td>
+                                    <td>Porsche 911 Turbo (996)</td>
+                                    <td>$106,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2003</td>
+                                    <td>Porsche Cayenne S</td>
+                                    <td>$50,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2005</td>
+                                    <td>Porsche 911 Carrera 4S</td>
+                                    <td>$74,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2009</td>
+                                    <td>Porsche Panamera</td>
+                                    <td>$89,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2013</td>
+                                    <td>Porsche 918 Spyder</td>
+                                    <td>$845,000</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="table-wrapper">
+                            <h2>2014-2024</h2>
+                            <table>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Car Model</th>
+                                    <th>Price</th>
+                                </tr>
+                                <tr>
+                                    <td>2014</td>
+                                    <td>Porsche 911 Turbo S</td>
+                                    <td>$160,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2014</td>
+                                    <td>Porsche Macan S</td>
+                                    <td>$50,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2016</td>
+                                    <td>Porsche GT3 RS</td>
+                                    <td>$175,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2020</td>
+                                    <td>Porsche Taycan 4S</td>
+                                    <td>$103,000</td>
+                                </tr>
+                                <tr>
+                                    <td>2022</td>
+                                    <td>Porsche 911 GT3</td>
+                                    <td>$175,000</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase">
+                    <video autoplay loop muted
+                        poster="porschepoto.png"
+                        role="none">
+                        <source
+                            src="porscheeevideo.mp4"
+                            type="video/mp4" />
+                    </video>
+                    <img src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/images/rhythm.png"
+                        alt="Rhythm" />
+                </div>
+            </section>
+
+            <section id="plans" class="cards">
+                <div class="subject">
+                    <div class="container">
+                        <a href="#" class="Card">
+                            <i class="ri-trophy-line"></i>
+                            <div>
+                                <h2>Porsche Legend</h2>
+                                <ul>
+                                    <li>Porsche 911</li>
+                                    <li>Porsche 917</li>
+                                    <li>Porsche 915</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a href="#" class="Card">
+                            <i class="ri-flag-2-line"></i>
+                            <div>
+                                <h2>Challenges</h2>
+                                <ul>
+                                    <li>Adapting to Emission Regulations</li>
+                                    <li>Balancing Performance and Practicality</li>
+                                    <li>Maintaining Brand Identity While Expanding Global Presence</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a href="#" class="Card">
+                            <i class="ri-team-line"></i>
+                            <div>
+                                <h2>Porsche Record</h2>
+                                <ul>
+                                    <li>Fastest Lap Time at the Nürburgring Nordschleife!</li>
+                                    <li>World’s Most Expensive Porsche Sold at Auction!</li>
+                                    <li>Longest Distance Driven on Electric Power by a Porsche Taycan'.</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div id="target-word">love</div>
+                <footer>
+                    <p>
+                        &copy; 2024 <a href="#">WEBCS</a>. All rights reserved. Designed and developed by
+                        <a href="https://www.facebook.com/arron.parejas/"
+                            style="color: var(--brand-1); text-decoration: none">RhonGarage's</a>
+                        Arron Kian Parejas.
+                    </p>
+                </footer>
+            </section>
+        </main>
+
+    </body>
+    <script src="sacript.js"></script>
+</body>
+
+</html>
